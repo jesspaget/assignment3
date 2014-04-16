@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+    overflow: hidden;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 25rem;
+    padding: 9.5rem 0 0;
+}
+
+.logo {
+    height: 5rem;
+    margin: 1.5rem 5%;
+}
+
+.nav-top {
+    clear: both;
+}
+
+.nav-top ul {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    text-align: center;
+}
+
+.nav-top a,
+.nav-top a:link, 
+.nav-top a:visited {
+    margin: 0;
+    padding: 1.5rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-top li {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+}
+
+.nav-top li:first-child {
+    background-color: orange;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+
+article {
+    margin: 0;
+    padding: 1rem 5%;
+    overflow: hidden;
+    font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+p {
+    margin: -.5rem 1.5rem 1.5rem;
+}
+
+
+    
+
+
+
+

@@ -100,11 +100,44 @@ h2 {
     margin: 1rem 0;
 }
 
+figure {
+    margin: 1rem auto;
+    width: 100%;
+    border-radius: 2rem; 
+}
+
+figcaption {
+    font-size: .75rem;
+    color: white;
+    padding: .5rem 5%;
+    background-color: orange;
+}
+
 p {
     margin: -.5rem 1.5rem 1.5rem;
 }
 
+footer {
+    margin: 0;
+    padding: 1.5rem 5% 6rem;
+    background-color: red;
+    font-family: 'Amatic SC', cursive;
+}
 
+.nav-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
     
 
 

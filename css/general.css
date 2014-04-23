@@ -160,7 +160,7 @@ footer {
     padding: 0;
 }
 
-.bucket2 li:nth-child(even) {
+.bucket2 li:last-child {
     margin: 0;
 }
 

@@ -107,7 +107,7 @@ figure {
 }
 
 figcaption {
-    font-size: .75rem;
+    font-size: 1.25rem;
     color: white;
     padding: .5rem 5%;
     background-color: orange;
@@ -124,6 +124,11 @@ footer {
     font-family: 'Amatic SC', cursive;
 }
 
+.nav-bottom {
+    width: 40%;
+    float: left;
+}
+
 .nav-bottom ul {
     list-style-type: none;
     margin: 0;
@@ -135,10 +140,52 @@ footer {
 .nav-bottom a:visited {
     color: white;
     text-decoration: none;
-    font-size: .875rem;
+    font-size: 1.5rem;
     line-height: 1.5rem;
 }
-    
+
+.bucket2 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    width: 60%;
+    float: left;
+}
+
+.bucket2 li {
+    float: left;
+    width: 30%;
+    margin: 0 5% 1.5rem 0;
+    padding: 0;
+}
+
+.bucket2 li:nth-child(even) {
+    margin: 0;
+}
+
+.bucket2 a,
+.bucket2 a:link,
+.bucket2 a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 100% 0 0; /* height of image ÷ by width = % */
+}
+
+.one {
+    background-image: url(../images/tumblr.svg);  
+}
+
+.two {
+    background-image: url(../images/insta.svg);
+}
+
+.three {
+    background-image: url(../images/facebook.svg);
+}
 
 
 
